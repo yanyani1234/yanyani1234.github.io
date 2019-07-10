@@ -52,7 +52,7 @@ a:active {
 
 /* Start Menu Primer */
 .menu-primer ul {
-    background-color: #df3b3b;
+    background-color: #0f9ddf;
     border-radius: 4px;
     
 }
@@ -65,12 +65,11 @@ a:active {
 
 .menu-primer a {
     color: #111111;
-    font-size 13px;
+    font-size: 13px;
     display: inline-blok;
     letter-spacing: 1px;
     padding: 10px 20px;
     text-transform: uppercase;
-
     }
 
 
@@ -116,8 +115,8 @@ h6 {
 
 /* Start Jumbotron */
 .jumbotron {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
+    background-color: #10d1f3;
+    border: 1px solid #eaedef;
     border-radius: 4px;
     padding: 20px 0;
 }
@@ -149,7 +148,7 @@ h6 {
     float: left;
     overflow: auto;
     width: 70%;
-
+}
 /* End Main */
 
 /* Start Sidebar */
@@ -196,7 +195,7 @@ h6 {
 
 /* Start Layanan Table */
 .layanan-table {
-    border: 1px solid: #df3b3b;
+    border: 1px solid #df3b3b;
     border-collapse: collapse;
     margin: auto;
     width: 100%
@@ -216,7 +215,7 @@ textarea {
     font-size: 14px;
     padding: 10px;
 }
-input::p;aceholder,
+input::placeholder,
 textarea::placeholder {
     color: #888888;
     font-weight: 300
@@ -244,6 +243,7 @@ input [type="submit"], .button {
     margin: 20% 0;
 }
 /* End Contact Form */
+
 
 /* Start Menu Sekunder */
 .menu-sekunder {
@@ -292,3 +292,132 @@ input [type="submit"], .button {
     font-size: 15px;
 }
 /* End Copyright */
+
+/* Start Effect */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1577 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.snip1577 h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img,
+.snip1577.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/* End Effect */
